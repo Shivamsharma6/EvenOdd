@@ -15,8 +15,8 @@ time.sleep(1)
 for i in range(num):
     if numlist[i]%2==0:
         EvenCount+=1
-else:
-        OddCount+=14
+    else:
+        OddCount+=1
 
 print 'Total Even Numbers:',EvenCount
 print 'Total Odd Numbers:' ,OddCount
